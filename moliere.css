@@ -1,0 +1,33 @@
+
+.speech {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: small;
+    color: black;
+ }
+ .direction{
+     font-family: 'Times New Roman', Times, serif;
+     font-size: small;
+     color: red;
+     background-color: azure;
+ }
+ .name {
+     font-family: 'Times New Roman', Times, serif;
+     font-size: small;
+     color: black;
+ }
+
+ .direction:hover{
+    background-color: gray;
+    color: white;
+    text-shadow: 2px 2px red;
+}
+
+.MUSICMASTER{
+    color: green;
+}
+.PUPIL{
+    color: blue;
+}
+.DANCINGMASTER{
+    color: orange;
+}
