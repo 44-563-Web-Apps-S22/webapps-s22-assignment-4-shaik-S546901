@@ -31,3 +31,59 @@
 .DANCINGMASTER{
     color: orange;
 }
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 30%;
+    }
+    th{
+        text-align: center;
+        color:black;
+        padding: 15px;
+    }
+    td{
+        text-align: center;
+        color: rgb(red, green, blue);
+        padding: 15px;
+    }
+    tr:nth-child(even) {background-color: #f2f2f2;}
+
+    .name:hover{
+        color: purple;
+        text-shadow: 2px 2px 5px red;
+        border: double;
+        box-shadow: 10px 5px 5px red;
+    }
+
+
+    img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+        height: 300px;
+    }
+    ul.navbar-horizontal{
+        list-style-type: none;
+        margin: 20px;
+        padding: 0;
+    }
+    ul.navbar-horizontal li {
+        float: center;
+        background-color: pink;
+    }
+    ul.navbar-horizontal a {
+        text-align: center;
+        color: rgb(red, green, blue);
+        display: block;
+        padding: 20px;
+        margin: 10px;
+    }
+    ul.navbar-horizontal a:hover{
+        background-color:blue;
+        color: red;
+    }
+    .icon{
+        float: right;
+    }
